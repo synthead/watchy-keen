@@ -10,12 +10,20 @@
 #define AMMO_X 115
 #define AMMO_Y 44
 
+#define BATTERY_X 165
+#define BATTERY_Y 180
+
+#define BATTERY_SEGMENT_WIDTH 7
+#define BATTERY_SEGMENT_HEIGHT 11
+#define BATTERY_SEGMENT_SPACING 9
+
 void WatchyKeen::drawWatchFace() {
   clearScreen();
 
   drawBackground();
   drawTime();
   drawDate();
+  drawBattery();
 }
 
 void WatchyKeen::clearScreen() {
@@ -73,4 +81,23 @@ void WatchyKeen::drawDate() {
   }
 
   display.print(currentTime.Day);
+}
+
+void WatchyKeen::drawBattery() {
+  float voltage = getBatteryVoltage();
+  uint8_t level = 0;
+
+  if (voltage > 4.1) {
+    level = 3;
+  } else if (voltage > 3.95) {
+    level = 2;
+  } else if (voltage > 3.80) {
+    level = 1;
+  }
+
+  for (uint8_t segment = 0; segment < level; segment++) {
+    uint8_t battery_x = BATTERY_X + (segment * BATTERY_SEGMENT_SPACING);
+
+    display.fillRect(battery_x, BATTERY_Y, BATTERY_SEGMENT_WIDTH, BATTERY_SEGMENT_HEIGHT, GxEPD_BLACK);
+  }
 }

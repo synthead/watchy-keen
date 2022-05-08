@@ -12,6 +12,7 @@ class WatchyKeen : public Watchy {
     void drawBackground();
     void drawTime();
     void drawDate();
+    void drawBattery();
 };
 
 #endif
