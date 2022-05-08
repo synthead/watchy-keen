@@ -2,7 +2,7 @@
 
 This is a Commander Keen-inspired face for your [Watchy](https://watchy.sqfmi.com)!
 
-![image](https://user-images.githubusercontent.com/820984/167291523-bb5578ce-fee8-489d-92a3-79dd7ed674b8.png)
+![image](https://user-images.githubusercontent.com/820984/167291861-cf1076ff-640b-4a82-b297-b9bb471698d8.jpg)
 
 ## Flashing to your Watchy
 
