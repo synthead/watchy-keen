@@ -1,6 +1,6 @@
 # A Commander Keen face for your Watchy
 
-This is a Commander Keen-inspired face for your [Watchy](https://watchy.sqfmi.com)!
+This is a [Commander Keen](https://user-images.githubusercontent.com/820984/167292044-b85732d1-be91-411b-a195-1c9da6e91c9c.jpg)-inspired face for your [Watchy](https://watchy.sqfmi.com)!
 
 ![image](https://user-images.githubusercontent.com/820984/167291861-cf1076ff-640b-4a82-b297-b9bb471698d8.jpg)
 
