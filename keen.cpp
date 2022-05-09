@@ -27,11 +27,11 @@ void WatchyKeen::drawWatchFace() {
 }
 
 void WatchyKeen::clearScreen() {
-  display.fillScreen(GxEPD_WHITE);
+  display.fillScreen(GxEPD_BLACK);
 }
 
 void WatchyKeen::drawBackground() {
-  display.drawBitmap(0, 0, background, DISPLAY_WIDTH, DISPLAY_HEIGHT, GxEPD_BLACK);
+  display.drawBitmap(0, 0, background, DISPLAY_WIDTH, DISPLAY_HEIGHT, GxEPD_WHITE);
 }
 
 void WatchyKeen::drawTime() {
