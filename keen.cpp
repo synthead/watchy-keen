@@ -1,6 +1,8 @@
 #include "keen.h"
 #include "graphics.h"
 
+#define BACKGROUND_SWITCH_MINUTES 60
+
 #define POINTS_X 3
 #define POINTS_Y 12
 
@@ -31,7 +33,9 @@ void WatchyKeen::clearScreen() {
 }
 
 void WatchyKeen::drawBackground() {
-  const unsigned char *background = backgrounds[currentTime.Hour % BACKGROUNDS];
+  time_t epoch_seconds = makeTime(currentTime);
+  uint8_t background_number = epoch_seconds / 60 / BACKGROUND_SWITCH_MINUTES % BACKGROUNDS;
+  const unsigned char *background = backgrounds[background_number];
 
   display.drawBitmap(0, 0, background, DISPLAY_WIDTH, DISPLAY_HEIGHT, GxEPD_WHITE);
 }
