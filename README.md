@@ -20,6 +20,10 @@ The background changes on the top of every hour!
     <td><img src="graphics/examples/level-9.png" width="300px"></td>
     <td><img src="graphics/examples/level-11.png" width="300px"></td>
     <td><img src="graphics/examples/level-12.png" width="300px"></td>
+    <td><img src="graphics/examples/level-17.png" width="300px"></td>
+  </tr>
+
+  <tr>
     <td><img src="graphics/examples/level-18.png" width="300px"></td>
   </tr>
 </table>
