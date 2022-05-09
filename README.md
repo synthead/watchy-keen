@@ -2,7 +2,7 @@
 
 This is a [Commander Keen](https://user-images.githubusercontent.com/820984/167292044-b85732d1-be91-411b-a195-1c9da6e91c9c.jpg)-inspired face for your [Watchy](https://watchy.sqfmi.com)!
 
-<img src="https://user-images.githubusercontent.com/820984/167294387-653942e4-c065-440d-9d58-37077bebe773.jpg" width="500px">
+<img src="https://user-images.githubusercontent.com/820984/167376632-48a15ec1-df71-4823-84a4-41b3d16f1c52.jpg" width="500px">
 
 ## Screenshots
 
