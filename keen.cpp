@@ -31,6 +31,8 @@ void WatchyKeen::clearScreen() {
 }
 
 void WatchyKeen::drawBackground() {
+  const unsigned char *background = backgrounds[currentTime.Hour % BACKGROUNDS];
+
   display.drawBitmap(0, 0, background, DISPLAY_WIDTH, DISPLAY_HEIGHT, GxEPD_WHITE);
 }
 
