@@ -4,7 +4,24 @@ This is a [Commander Keen](https://user-images.githubusercontent.com/820984/1672
 
 <img src="https://user-images.githubusercontent.com/820984/167294387-653942e4-c065-440d-9d58-37077bebe773.jpg" width="500px">
 
-<img src="https://raw.githubusercontent.com/synthead/watchy-keen/master/graphics/examples/map.png" width="500px">
+## Screenshots
+
+The background changes on the top of every hour!
+
+<table>
+  <tr>
+    <td><img src="graphics/examples/map.png" width="300px"></td>
+    <td><img src="graphics/examples/level-1.png" width="300px"></td>
+    <td><img src="graphics/examples/level-4.png" width="300px"></td>
+    <td><img src="graphics/examples/level-5.png" width="300px"></td>
+  </tr>
+
+  <tr>
+    <td><img src="graphics/examples/level-9.png" width="300px"></td>
+    <td><img src="graphics/examples/level-11.png" width="300px"></td>
+    <td><img src="graphics/examples/level-12.png" width="300px"></td>
+  </tr>
+</table>
 
 ## Reading the time and date
 
