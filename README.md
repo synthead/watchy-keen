@@ -10,23 +10,23 @@ The background changes every 10 minutes!
 
 <table>
   <tr>
-    <td><img src="graphics/examples/map.png" width="300px"></td>
-    <td><img src="graphics/examples/level-1.png" width="300px"></td>
-    <td><img src="graphics/examples/level-4.png" width="300px"></td>
-    <td><img src="graphics/examples/level-5.png" width="300px"></td>
+    <td><img src="graphics/screenshots/map.png" width="300px"></td>
+    <td><img src="graphics/screenshots/level-1.png" width="300px"></td>
+    <td><img src="graphics/screenshots/level-4.png" width="300px"></td>
+    <td><img src="graphics/screenshots/level-5.png" width="300px"></td>
   </tr>
 
   <tr>
-    <td><img src="graphics/examples/level-9.png" width="300px"></td>
-    <td><img src="graphics/examples/level-11.png" width="300px"></td>
-    <td><img src="graphics/examples/level-12.png" width="300px"></td>
-    <td><img src="graphics/examples/level-15.png" width="300px"></td>
+    <td><img src="graphics/screenshots/level-9.png" width="300px"></td>
+    <td><img src="graphics/screenshots/level-11.png" width="300px"></td>
+    <td><img src="graphics/screenshots/level-12.png" width="300px"></td>
+    <td><img src="graphics/screenshots/level-15.png" width="300px"></td>
   </tr>
 
   <tr>
-    <td><img src="graphics/examples/level-16.png" width="300px"></td>
-    <td><img src="graphics/examples/level-17.png" width="300px"></td>
-    <td><img src="graphics/examples/level-18.png" width="300px"></td>
+    <td><img src="graphics/screenshots/level-16.png" width="300px"></td>
+    <td><img src="graphics/screenshots/level-17.png" width="300px"></td>
+    <td><img src="graphics/screenshots/level-18.png" width="300px"></td>
   </tr>
 </table>
 
