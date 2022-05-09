@@ -4,7 +4,7 @@ This is a [Commander Keen](https://user-images.githubusercontent.com/820984/1672
 
 <img src="https://user-images.githubusercontent.com/820984/167294387-653942e4-c065-440d-9d58-37077bebe773.jpg" width="500px">
 
-<img src="https://raw.githubusercontent.com/synthead/watchy-keen/master/graphics/example.png" width="500px">
+<img src="https://raw.githubusercontent.com/synthead/watchy-keen/master/graphics/examples/map.png" width="500px">
 
 ## Reading the time and date
 
