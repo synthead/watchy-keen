@@ -6,7 +6,7 @@ This is a [Commander Keen](https://user-images.githubusercontent.com/820984/1672
 
 ## Screenshots
 
-The background changes on the top of every hour!
+The background changes every 10 minutes!
 
 <table>
   <tr>

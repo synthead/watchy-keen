@@ -1,7 +1,7 @@
 #include "keen.h"
 #include "graphics.h"
 
-#define BACKGROUND_SWITCH_MINUTES 60
+#define BACKGROUND_SWITCH_MINUTES 10
 
 #define POINTS_X 3
 #define POINTS_Y 12
