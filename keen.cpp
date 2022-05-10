@@ -3,7 +3,10 @@
 
 #define BACKGROUND_SWITCH_MINUTES 10
 
-#define POINTS_X 3
+#define WEEKDAY_X 19
+#define WEEKDAY_Y 12
+
+#define POINTS_X 51
 #define POINTS_Y 12
 
 #define LIVES_X 35
@@ -19,12 +22,17 @@
 #define BATTERY_SEGMENT_HEIGHT 11
 #define BATTERY_SEGMENT_SPACING 9
 
+time_t epoch;
+
 void WatchyKeen::drawWatchFace() {
+  epoch = makeTime(currentTime);
+
   clearScreen();
 
   drawBackground();
   drawTime();
   drawDate();
+  drawWeekday();
   drawBattery();
 }
 
@@ -33,8 +41,7 @@ void WatchyKeen::clearScreen() {
 }
 
 void WatchyKeen::drawBackground() {
-  time_t epoch_seconds = makeTime(currentTime);
-  uint8_t background_number = epoch_seconds / 60 / BACKGROUND_SWITCH_MINUTES % BACKGROUNDS;
+  uint8_t background_number = epoch / 60 / BACKGROUND_SWITCH_MINUTES % BACKGROUNDS;
   const unsigned char *background = backgrounds[background_number];
 
   display.drawBitmap(0, 0, background, DISPLAY_WIDTH, DISPLAY_HEIGHT, GxEPD_WHITE);
@@ -46,7 +53,7 @@ void WatchyKeen::drawTime() {
 
   display.setCursor(POINTS_X, POINTS_Y);
 
-  display.print(";;;;");
+  display.print(";");
 
   uint8_t hour = currentTime.Hour % 12;
 
@@ -87,6 +94,13 @@ void WatchyKeen::drawDate() {
   }
 
   display.print(currentTime.Day);
+}
+
+void WatchyKeen::drawWeekday() {
+  uint8_t weekday_index = weekday(epoch) - 1;
+  const unsigned char *current_weekday = weekdays[weekday_index];
+
+  display.drawBitmap(WEEKDAY_X, WEEKDAY_Y, current_weekday, WEEKDAY_WIDTH, WEEKDAY_HEIGHT, GxEPD_WHITE);
 }
 
 void WatchyKeen::drawBattery() {
