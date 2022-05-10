@@ -32,7 +32,7 @@ The background changes every 10 minutes!
 
 ## Reading the time and date
 
-- The time is in the points field
+- The weekday and time is in the points field
 - The month is the lives (helmet) field
 - The day is the ammo field
 
