@@ -30,6 +30,10 @@ The background changes every 10 minutes!
   </tr>
 </table>
 
+And here's an animated GIF of all the screenshots, just because :wink:
+
+<img src="graphics/screenshots/all.gif" width="300px">
+
 ## Reading the time and date
 
 - The weekday and time is in the points field
