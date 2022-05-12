@@ -8,6 +8,8 @@ class WatchyKeen : public Watchy {
 
   public:
     void drawWatchFace();
+
+  private:
     void clearScreen();
     void drawBackground();
     void drawTime();
